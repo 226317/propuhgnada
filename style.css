@@ -164,7 +164,7 @@ body {
   border-width: 13px;
   border-color: #9b978d;
   border-style: solid;
-  background: radial-gradient(black 1%, #9b978c);
+  background: radial-gradient(black 20%, #9b978c);
   margin: auto;
   position: absolute;
   top:0;
@@ -195,8 +195,9 @@ body {
 }
 
 button:active {
-  width: 195px;
-  height: 195px;
-  font-size: 52px;
+  width: 175px;
+  height: 175px;
+  font-size: 47px;
   background:rgb(194, 31, 39);
+  color: #dedede;
 }

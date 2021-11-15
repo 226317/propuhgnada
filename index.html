@@ -12,6 +12,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
 
+        <script>
+            function play() {
+              var audio = new Audio("shut_up.mp3");
+              audio.play();
+            }
+        </script>
+
         <!-- MOBILE WEB APP, ADD THIS TO <head>..</head> OF index.html -->
         <link rel="icon" type="image/png" href="fabicon.png" />
         <link rel="apple-touch-icon" href="fabicon.png">
@@ -23,7 +30,7 @@
         <div class="container">
             <section class="buttonBase">
                 <section class="buttonrim">
-                    <button class="shut-up-button">SHUT</button>
+                    <button class="shut-up-button" onclick="play();">SHUT</button>
                 </section>
             </section>
         </div>
