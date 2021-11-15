@@ -134,14 +134,69 @@ table {
   ========================================
 */
 
-html {
-    width: 100%;
+html, body {
+  height: 100%;
+  width: 100%;
 }
+
 body {
-    background: radial-gradient(#858177, black);
+  background:#6e6b65;
+}
+
+.buttonBase {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url("https://wallpaperaccess.com/full/1808239.jpg");
+  background: repeating-linear-gradient(135deg, rgb(238, 210, 2), rgb(238, 210, 2) 20px, rgb(0, 0, 0) 20px, hsl(0, 0%, 0%) 40px);
+  border-radius: 35px;
+}
+
+.buttonrim {
+  width: 203px;
+  height: 203px;
+  border-radius: 50%;
+  border-width: 13px;
+  border-color: #9b978d;
+  border-style: solid;
+  background: radial-gradient(black 1%, #9b978c);
+  margin: auto;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right:0;
+  left: 0;
+}
+
+.container {
+  height: 100%;
+  position: relative;
 }
 
 .shut-up-button {
-    background: #eed202;
-    margin: 0 auto;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 205px;
+  height: 205px;
+  border-radius: 50%;
+  background:rgb(230, 37, 47);
+  background-color: radial-gradient(white,rgba(225, 225, 225, 0));
+  color: white;
+  font-size: 55px;
+}
+
+button:active {
+  width: 195px;
+  height: 195px;
+  font-size: 52px;
+  background:rgb(194, 31, 39);
 }
